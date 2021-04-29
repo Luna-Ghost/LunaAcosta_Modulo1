@@ -1,0 +1,6 @@
+NO me deja subir una 
+carpeta con las imagenes 
+por lo que las subi por 
+separado pero deben ir 
+dentro de un carpeta 
+llamada "imgs"
