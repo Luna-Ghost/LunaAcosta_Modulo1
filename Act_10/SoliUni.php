@@ -1,8 +1,8 @@
 <?php
     //-------------------------------------------------------------------------------------//
     $nombre = (isset($_POST["name"]) && $_POST["name"] != "" )?$_POST["name"] : "No hay dato";
-    $apP = (isset($_POST["ApeP"]) && $_POST["ApeP"] != "" )?$_POST["ApeP"] : "No hay dato";
-    $apM = (isset($_POST["ApeM"]) && $_POST["ApeM"] != "" )?$_POST["ApeM"] : "No hay dato";
+    $apM = (isset($_POST["ApeP"]) && $_POST["ApeP"] != "" )?$_POST["ApeP"] : "No hay dato";
+    $apP = (isset($_POST["ApeM"]) && $_POST["ApeM"] != "" )?$_POST["ApeM"] : "No hay dato";
     $sexoMH = (isset($_POST["sexoMH"]) && $_POST["sexoMH"] != "" )?$_POST["sexoMH"] : "No hay dato";
     $edad = (isset($_POST["edad"]) && $_POST["edad"] != "" )?$_POST["edad"] : "No hay dato";
     $correo = (isset($_POST["correo"]) && $_POST["correo"] != "" )?$_POST["correo"] : "No hay dato";
