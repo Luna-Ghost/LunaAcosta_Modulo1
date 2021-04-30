@@ -13,15 +13,19 @@
     $primOp = (isset($_POST["primOpcion"]) && $_POST["primOpcion"] != "" )?$_POST["primOpcion"] : "No hay dato";
     $segOp = (isset($_POST["segOpcion"]) && $_POST["segOpcion"] != "" )?$_POST["segOpcion"] : "No hay dato";
     //-------------------------------------------------------------------------------------//
+    //creando tablita
     echo "<table border='1'>";
         echo "<thead>";
             echo "<tr>";
+                //superencabezado
                 echo "<th colspan='4'><h2>Solicitud de ingreso a la Universidad</h2></th>";
             echo "</tr>";
         echo "</thead>";
         echo "<tbody>";
+            //centré todas las celdas del cuerpo de la tabla
             echo "<tr align='center'>";
                 echo "<td>";
+//A partir de aqui solo empiezo a colocar los datos en la tablita y sus "subtemas" (no se como decirles, ¿campos?)
                     echo $apP;
                 echo "</td>";
                 echo "<td>";
@@ -32,6 +36,7 @@
                 echo "</td>";
             echo "</tr>";
             echo "<tr align='center'>";
+//Los "subtemas/campos/lo que nos e como llamarlos" están subrayados y en negritas
                 echo "<td><strong><u>Apellido Paterno</u></strong></td>";
                 echo "<td><strong><u>Apellido Materno</u></strong></td>";
                 echo "<td colspan='2'><strong><u>Nombre(s)</u></strong></td>";
