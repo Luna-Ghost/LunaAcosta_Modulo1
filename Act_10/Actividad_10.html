@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitud Uni</title>
+</head>
+<body>
+    <form action="./SoliUni.php" method="post">
+        <fieldset style="width: 350px">
+            <legend>Solicitud para la Uni</legend>
+            <label for="name">Nombre(s):
+                <input type="text" name="name" required>
+            </label>
+            <br><br>
+            <label for="ApeM">Apellido materno:
+                <input type="text" name="ApeM" required>
+            </label>
+            <br><br>
+            <label for="ApeP">Apellido paterno:
+                <input type="text" name="ApeP" required>
+            </label>
+            <br><br>
+            Sexo:
+            <select name="sexoMH" required> 
+                <option value="">Escoge una respuesta</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Hombre">Hombre</option>
+            </select>
+            <br><br>
+            <label for="edad">Edad:
+                <input type="number" name="edad" min="16" max="100" required>
+            </label>
+            <br><br>
+            <label for="correo">Correo electronico:
+                <input type="email" name="correo" required>
+            </label>
+            <br><br>
+            <label for="tel">Telefono:
+                <input type="number" name="telefono" min="5000000000" max="6099999999" required>
+            </label>
+            <br><br>
+            <label for="cel">Celular:
+                <input type="number" name="celular" min="5000000000" max="6099999999" required>
+            </label>
+            <br><br>
+
+            Escuela de procedencia:
+            <select name="escuelaPro" required> 
+                <option value="">Escoge una respuesta</option>
+                <option value="Escuela Nacional Preparatorio">Escuela Nacional Preparatorio</option>
+                <option value="Colegio de Ciencias y Humanidades">Colegio de Ciencias y Humanidades</option>
+                <option value="Instituto Politécnico Nacional ">Instituto Politécnico Nacional </option>
+            </select>
+            <br><br>
+            <label for="promedio">Promedio:
+                <input type="number" name="promedio" min="0" max="10" required>
+            </label>
+            <br><br>
+            <label for="primOp">Primera opción:
+                <input type="text" name="primOpcion" required>
+            </label>
+            <br><br>
+            <label for="segOp">Segunda opción:
+                <input type="text" name="segOpcion" required>
+            </label>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </form>
+</body>
+</html>
