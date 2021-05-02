@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translate Morse-Español / Español-Morse</title>
+</head>
+<body>
+    <form action="./translateMorse.php" method="POST">
+        <fieldset style="width: 515px; color: darkblue">
+            <legend><h2><i>Translate Morse-Español / Español-Morse</i></h2></legend>
+
+            <h3>Seleccione como quieres traducir:</h3>
+            <select name="turn" required>
+                <option value="">Seleccione como quiere traducir</option>
+                <option value="Español a Morse">Español a Morse</option>
+                <option value="Morse a Español">Morse a Español</option>
+            </select>
+            <br><br><h5>Formato de morse: Hola / mundo / soy / formato</h5><br>
+            Coloca tu texto:
+            <textarea name="texto" cols="70" rows="10"></textarea>
+            <input type="submit" value="Traducir">
+        </fieldset>
+    </form>
+</body>
+</html>
