@@ -3,11 +3,7 @@
     /*
         Acosta Durán Luna Fernanda
         Figueroa Hernández Fernando
-
-        NOTA: ya nos moriamos de sueño, cansancio y dolor muscular pero intentamos encontrar 
-        una alternativa con lo que teniamos. Esta alternativa fue desplegar el nombre de las
-        casillas donde si hay barco y poner el mensaje de que gano cuando los disparos y los
-        barcos coincidan completamente.
+        
         Cumplimos con:
         -Título del juego
         -Visualizar casillas a las que se disparó y habia barco (no en la tabla pero si se 
@@ -21,6 +17,7 @@
             10x10
 
         PD: tenemos pensado completarlo algun dia
+        U___U
     */ 
     //-------------------------------------------------------------------------------//
     
