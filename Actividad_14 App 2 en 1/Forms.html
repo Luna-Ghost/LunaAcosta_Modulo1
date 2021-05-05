@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App 2 en 1</title>
+</head>
+<body>
+    <h1 align="center"><strong><i>App 2 en 1</i></strong></h1>
+    <br>
+    <table align="center">
+        <tr>
+            <td>
+                <form action="./App_2en1.php" method="POST">
+                    <fieldset style="color:rgb(42, 10, 156)">
+                        <legend style="color:teal"><h2><strong><i>Reloj mundial</i></strong></h2></legend>
+                        <label for="hora">Introduce una hora (CDMX) 
+                            <input type="time" name="hora" required>
+                            <br><br><br>
+                            Ingrese los paises que quiere consultar
+                            <br>
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" name="NuevaYork">Nueva York</td>
+                                    <td><input type="checkbox" name="SãoPaulo">São Paulo</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Madrid">Madrid</td>
+                                    <td><input type="checkbox" name="Paris">Paris</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Roma">Roma</td>
+                                    <td><input type="checkbox" name="Atenas">Atenas</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" name="Bejin">Beijing</td>
+                                    <td><input type="checkbox" name="Tokio">Tokio</td>
+                                </tr>
+                            </table>
+                        </label>
+                        <input type="submit" value="Checar">
+                    </fieldset>
+                </form>
+            </td>
+            <td>
+                <form action="./App_2en1.php" method="POST">
+                    <fieldset style="color: rgb(42, 10, 156)">
+                        <legend style="color: teal"><h2><strong><i>Calcula cumpleaños</i></strong></h2></legend>
+                        <label for="cumple">Ingrese tu día de cumpleaños: 
+                            <input type="date" name="cumple" min="2021-01-01" max="2021-12-31" required>
+                            <br><br><br>
+                            ¿Qué quieres consultar?
+                            <br><input type="checkbox" name="dias">Dias para el próximo cumpleaños <br>
+                            <input type="checkbox" name="horas">Horas para el próximo cumpelaños <br>
+                            <input type="checkbox" name="minutos">Minutos para el próximo cumpelaños <br>
+                            <input type="checkbox" name="fin_sem">¿Será en fin de semana? <br><br>
+                        </label>
+                        <input type="submit" value="Checar">
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<img src="" alt="" width="100">
